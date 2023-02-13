@@ -1,0 +1,8 @@
+mutation car($car: CarDtoInput) {
+  car(car: $car) {
+    fin
+    brand
+    model
+    engine
+  }
+}

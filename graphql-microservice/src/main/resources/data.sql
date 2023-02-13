@@ -1,0 +1,7 @@
+INSERT INTO CAR(fin, brand, model, engine) VALUES('WBAP17040BMWX420', 'BMW', 'X4 xDrive', '20i')
+INSERT INTO CAR(fin, brand, model, engine) VALUES('WBAP17040BMWX435', 'BMW', 'X4 xDrive', '35i')
+INSERT INTO CAR(fin, brand, model, engine) VALUES('WBAP17040BMWM3COMP', 'BMW M', 'M3 Competition', '3.0')
+INSERT INTO CAR(fin, brand, model, engine) VALUES('WBAP17040MERCW206AMG', 'Mercedes AMG', 'W206', 'AMG C 43 4MATIC')
+INSERT INTO CAR(fin, brand, model, engine) VALUES('WBAP17040MERCW205', 'Mercedes', 'W205', '250d 4MATIC')
+INSERT INTO CAR(fin, brand, model, engine) VALUES('WBAP17040MERCW206', 'Mercedes', 'W206', '300')
+INSERT INTO CAR(fin, brand, model, engine) VALUES('WBAP17040FIAT199', 'Fiat', 'Punto 199', '1.2')

@@ -1,0 +1,8 @@
+query carsByModel($fahrzeugmodel: String!) {
+  carsByModel(model: $fahrzeugmodel) {
+    fin
+    brand
+    model
+    engine
+  }
+}

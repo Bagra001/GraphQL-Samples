@@ -1,0 +1,8 @@
+query cars {
+  cars{
+    fin
+    brand
+    model
+    engine
+  }
+}

@@ -1,0 +1,27 @@
+type CarDto {
+    fin: String!
+    brand: String!
+    model: String!
+    engine: String!
+}
+
+input CarDtoInput {
+    fin: String!
+    brand: String!
+    model: String!
+    engine: String!
+}
+
+# queries
+type Query {
+    cars: [CarDto]
+    carsByFin(fin: String!): CarDto
+    carsByBrand(brand: String!): [CarDto]
+    carsByModel(model: String!): [CarDto]
+}
+
+
+# mutation
+type Mutation {
+    car(car: CarDtoInput): CarDto
+}
